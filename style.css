@@ -9,7 +9,7 @@ body {
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,h2,h3,footer,nav {
+h1,h2,h3,header, p{
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
@@ -66,5 +66,11 @@ a:hover {color:#f77f00}
 header > div > nav > a {
   color: #d62828;
   padding: 0 10px 10px 10px;
+  text-align: center;
+  font-family: "Playfair Display", Times, serif;
 }
 
+footer{
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
