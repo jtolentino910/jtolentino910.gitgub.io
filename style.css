@@ -6,8 +6,8 @@ body {
   background-color: #eae2b7;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -85,8 +85,8 @@ footer{
 }
 
 main{
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 31%;
+  margin-right: 31%;
   display: flex;
   flex-direction: column;
 }
