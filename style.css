@@ -11,20 +11,16 @@ body {
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,h2,h3,header{
+h1, h2, h3{
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
+h2{
+  text-align: center;
+}
 
 article {
-  padding: 50px 0;
-}
-
-article div {
-  width: 100%;
+  padding: 20px 0;
 }
 
 p {
@@ -33,8 +29,8 @@ p {
 
 /* The div container constrains the content width within the main container to 600px */
 div {
-  margin: auto;
   width: 600px;
+  margin: auto;
 }
 
 img {
@@ -48,51 +44,84 @@ img {
 hr {
   border-top: 2px solid black;
   width: 100%;
-
-
 }
 
 /* Add your solution below */
 
-
-.image-circle {
-  border-radius: 100px;
-  color: #003049;
-  border-width: 2px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex; /*apply flexbox to center image*/
-  justify-content: center;
-  flex-direction: column;
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+  
+.container a{
+  display:inline-block;
+  padding:0px 20px;
+}
+  
+
+.container-2{
+  display: flex;
+  align-items: center;
+}
+
+.container-2 img{
+  border-style: solid;
+  border-color: #003049;
+  border-width: 2px;
+  border-radius: 100px;
+}  
+
+.container-2 > *{
+  flex: 1;
+}
+
+.container-3 {
+  display: flex;
+}
+
+.container-3 h3{
+  text-align: center;
+}
+
+.container-4 {
+  display: flex;
+}
+
+.container-6{
+  display: flex;
+  gap: 1rem;
+}
+
+.container-6 > *{
+  flex:1;
+}
+
+.container-6 p{
+  size: 14px;
+}
+
+.head2 h3{
+  text-align: center;
+}
+
 
 a {
   font-family: read-write-plaintext-only;
-}
+  color: #d62828;
+  display: inline;
+  }
 a:link {color:#d62828}
 a:hover {color:#f77f00}
 
-header > div > nav > a {
-  color: #d62828;
-  padding: 0 10px 10px 10px;
-  text-align: center;
-  font-family: "Playfair Display", Times, serif;
-}
 
 footer{
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
-main{
-  margin-left: 31%;
-  margin-right: 31%;
-  display: flex;
-  flex-direction: column;
+main {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
-.Abs{
-  display: flex; /*apply flexbox to center image*/
-  justify-content: center;
-  flex-direction: column;
-}
